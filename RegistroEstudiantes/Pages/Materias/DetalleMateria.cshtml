@@ -1,0 +1,31 @@
+﻿@page  "{Id:int}"
+@model RegistroEstudiantes.Pages.Materias.DetalleMateriaModel
+@{
+    ViewData["Title"] = "DetalleMateria";
+}
+
+<h3>@Model.Materia.Nombre</h3>
+<br />
+
+<div>
+    <label style="font-weight:bold">Area:</label>
+    @Model.Materia.Area
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Descripcion:</label>
+    @Model.Materia.Descripcion
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Objetivos:</label>
+    @Model.Materia.Objetivos
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Disponible:</label>
+    @Model.Materia.Disponible
+</div>
+<br />
+<a class="btn btn-primary" asp-page="./RegistroMaterias"> Volver al listado</a>
+

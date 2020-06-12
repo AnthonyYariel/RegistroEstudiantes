@@ -1,0 +1,41 @@
+﻿@page "{Id:int}"
+@model RegistroEstudiantes.Pages.Estudiantes.DetalleEstudianteModel
+@{
+    ViewData["Title"] = "DetalleEstudiante";
+}
+
+<h3>@Model.Estudiante.Nombre</h3>
+<br />
+
+<div>
+    <label style="font-weight:bold">Cédula:</label>
+    @Model.Estudiante.Cedula
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Matrícula:</label>
+    @Model.Estudiante.Matricula
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Correo:</label>
+    @Model.Estudiante.Correo
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Telefono:</label>
+    @Model.Estudiante.Telefono
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Estatus:</label>
+    @Model.Estudiante.Estatus
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Materia:</label>
+    @Model.Estudiante.Materia
+</div>
+<br />
+<a class="btn btn-primary" asp-page="./RegistroEstudiantes"> Volver al listado</a>
+

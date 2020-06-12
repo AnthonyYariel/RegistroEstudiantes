@@ -1,0 +1,59 @@
+﻿@page
+@model RegistroEstudiantes.Pages.Estudiantes.RegistroEstudiantesModel
+@{
+    ViewData["Title"] = "RegistroEstudiantes";
+}
+
+<br />
+<form method="get">
+    <div class="input-group">
+        <input type="text" class="form-control col-md-5" placeholder="Escriba el nombre del estudiante aquí..." asp-for="Texto" id="Texto">
+        
+        <div class="input-group-append" id="button-addon4">
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Buscar</button>
+            <button class="btn btn-outline-secondary" type="reset" id="button-addon2">Limpiar</button>
+        </div>
+    </div>
+
+    @*<div class="input-group mb-3">
+        <input type="text" class="form-control col-md-5" placeholder="Escriba el nombre del estudiante aquí..." asp-for="Texto">
+
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Buscar</button>
+        </div>
+    </div>*@
+</form>
+<br />
+
+<h5>Listado de Estudiantes</h5>
+
+<table class="table">
+
+    <thead>
+        <tr>
+
+            <th>Id</th>
+            <th>Matrícula</th>
+            <th>Nombre</th>
+            <th>Materia</th>
+            <th>Estatus</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+
+    @foreach (var estudiante in Model.Estudiantes)
+    {
+        <tr>
+
+            <td>@estudiante.Id</td>
+            <td>@estudiante.Matricula</td>
+            <td>@estudiante.Nombre</td>
+            <td>@estudiante.Materia</td>
+            <td>@estudiante.Estatus</td>
+            <td><a asp-page="./DetalleEstudiante" asp-route-Id="@estudiante.Id" class="btn btn-primary" style="cursor:pointer">Ver detalle</a></td>
+
+        </tr>
+    }
+
+</table>
+

@@ -1,0 +1,9 @@
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Model.deps.json
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Model.dll
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Model.pdb
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Model.csprojAssemblyReference.cache
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Model.AssemblyInfoInputs.cache
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Model.AssemblyInfo.cs
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Model.csproj.CoreCompileInputs.cache
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Model.dll
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Model\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Model.pdb

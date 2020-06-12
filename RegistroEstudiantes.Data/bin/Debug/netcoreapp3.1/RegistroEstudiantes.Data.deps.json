@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RegistroEstudiantes.Data/1.0.0": {
+        "dependencies": {
+          "RegistroEstudiantes.Model": "1.0.0"
+        },
+        "runtime": {
+          "RegistroEstudiantes.Data.dll": {}
+        }
+      },
+      "RegistroEstudiantes.Model/1.0.0": {
+        "runtime": {
+          "RegistroEstudiantes.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RegistroEstudiantes.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RegistroEstudiantes.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

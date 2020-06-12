@@ -1,0 +1,47 @@
+﻿@page
+@model RegistroEstudiantes.Pages.Materias.RegistroMateriasModel
+@{
+    //ViewData["Title"] = "RegistroMaterias";
+}
+
+    <form method="get">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Escriba el nombre de la materia aquí..." asp-for="Texto">
+
+            <div class="input-group-append">
+                <button class="input-group-text" type="submit">Buscar</button>
+            </div>
+        </div>
+    </form>
+
+    <table class="table">
+
+        <thead>
+            <tr>
+
+                <th>Id</th>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Area</th>
+                <th>Disponible</th>
+            </tr>
+        </thead>
+
+        @foreach (var materia in Model.Materias)
+        {
+    <tr>
+
+        <td>@materia.Id</td>
+        <td>@materia.Codigo</td>
+        <td>@materia.Nombre</td>
+        <td>@materia.Area</td>
+        <td>@materia.Disponible</td>
+        <td><a asp-page="./DetalleMateria" asp-route-Id="@materia.Id" class="btn btn-success" style="cursor:pointer">Ver detalle</a></td>
+
+    </tr>
+            }
+
+        </table>
+
+    <h1>@Model.Mensaje</h1>
+

@@ -1,0 +1,12 @@
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Data.deps.json
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Data.dll
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Data.pdb
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Model.dll
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\bin\Debug\netcoreapp3.1\RegistroEstudiantes.Model.pdb
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.csprojAssemblyReference.cache
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.AssemblyInfoInputs.cache
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.AssemblyInfo.cs
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.csproj.CoreCompileInputs.cache
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.csproj.CopyComplete
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.dll
+C:\Proyectos.Net\RegistroEstudiantes\RegistroEstudiantes.Data\obj\Debug\netcoreapp3.1\RegistroEstudiantes.Data.pdb
