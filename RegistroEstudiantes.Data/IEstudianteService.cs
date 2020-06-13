@@ -20,11 +20,11 @@ namespace RegistroEstudiantes.Data
         {
             this.estudiante = new List<Estudiante>()
             {
-                new Estudiante {Id = 1, Matricula="ARB09-2020", Materia="Programación Orientada a Objeto",Nombre="Anthony Reynoso",Estatus="Activo",  Cedula="001-1907312-0", Correo="ing.anthonyreynoso@gmail.com", Telefono="829-638-0702"},
-                new Estudiante {Id = 2, Matricula="YOE28-2018", Materia="Programación Estructurada",      Nombre="Yaritssa Ortiz", Estatus="Activo",  Cedula="001-2352122-5", Correo="yaritssaOrtizE2826@gmail.com", Telefono="809-621-1916"},
-                new Estudiante {Id = 3, Matricula="ABM07-2015", Materia="Programación de Base de Datos",  Nombre="Alida Bautista", Estatus="Activo",  Cedula="001-0355072-9", Correo="prof.alidabautista@gmail.com", Telefono="829-638-4884"},
-                new Estudiante {Id = 4, Matricula="LRR14-2016", Materia="Programación de Computadoras",   Nombre="Luis Reynoso",   Estatus="Inactivo",Cedula="001-0355400-2", Correo="luisRReynoso140910@gmail.com", Telefono="829-440-3239"},
-                new Estudiante {Id = 5, Matricula="LOR09-2019", Materia="Programación en ASP .NET Csharp",Nombre="Luciano Bautita",Estatus="Retirado",Cedula="001-1945611-9", Correo="lomarbautistaG0928@gmail.com", Telefono="829-638-1612"},
+                new Estudiante {Id = 1, Matricula="ARB09-2020", Apellido="Reynoso", Nombre="Anthony", Estatus="Activo",  Cedula="001-1907312-0", Correo="ing.anthonyreynoso@gmail.com", Telefono="829-638-0702", Sexo=Sexo.Masculino},
+                new Estudiante {Id = 2, Matricula="YOE28-2018", Apellido="Ortiz",   Nombre="Yaritssa",Estatus="Activo",  Cedula="001-2352122-5", Correo="yaritssaOrtize2826@gmail.com", Telefono="809-621-1916", Sexo=Sexo.Femenino},
+                new Estudiante {Id = 3, Matricula="ABM07-2015", Apellido="Bautista",Nombre="Alida",   Estatus="Activo",  Cedula="001-0355072-9", Correo="prof.alidabautista@gmail.com", Telefono="829-638-4884", Sexo=Sexo.Femenino},
+                new Estudiante {Id = 4, Matricula="LRR14-2016", Apellido="Reynoso", Nombre="Luis",    Estatus="Inactivo",Cedula="001-0355400-2", Correo="luisrreynoso140910@gmail.com", Telefono="829-440-3239", Sexo=Sexo.Masculino},
+                new Estudiante {Id = 5, Matricula="LOR09-2019", Apellido="Bautita", Nombre="Luciano", Estatus="Retirado",Cedula="001-1945611-9", Correo="lomarbautistag0928@gmail.com", Telefono="829-638-1612", Sexo=Sexo.Masculino},
             };
         }
 

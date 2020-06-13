@@ -4,7 +4,7 @@
     ViewData["Title"] = "DetalleEstudiante";
 }
 
-<h3>@Model.Estudiante.Nombre</h3>
+<h3>@Model.Estudiante.Nombre @Model.Estudiante.Apellido</h3>
 <br />
 
 <div>
@@ -15,6 +15,21 @@
 <div>
     <label style="font-weight:bold">Matrícula:</label>
     @Model.Estudiante.Matricula
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Fecha de Nacimiento:</label>
+    @Model.Estudiante.FechaNacimiento
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Edad:</label>
+    @Model.Estudiante.Edad
+</div>
+<br />
+<div>
+    <label style="font-weight:bold">Sexo:</label>
+    @Model.Estudiante.Sexo
 </div>
 <br />
 <div>
@@ -30,11 +45,6 @@
 <div>
     <label style="font-weight:bold">Estatus:</label>
     @Model.Estudiante.Estatus
-</div>
-<br />
-<div>
-    <label style="font-weight:bold">Materia:</label>
-    @Model.Estudiante.Materia
 </div>
 <br />
 <a class="btn btn-primary" asp-page="./RegistroEstudiantes"> Volver al listado</a>
